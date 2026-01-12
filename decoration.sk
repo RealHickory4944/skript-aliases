@@ -834,3 +834,7 @@ before grass change:
 after grass change:
 	minecraft version = 1.20.3 or newer
 	short grass¦es = minecraft:short_grass
+
+copper age update:
+	minecraft version = 1.21.9 or newer
+	{waterloggable} {axis-aligned} [iron] chain¦s = minecraft:iron_chain
