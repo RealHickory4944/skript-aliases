@@ -837,22 +837,17 @@ after grass change:
 
 copper age update:
 	minecraft version = 1.21.9 or newer
+	{oxidized}:
+		{default} = -
+		(lightly weathered|exposed) = -exposed_-
+		weathered = -weathered_-
+		oxidized = -oxidized_-
+	{waxed}:
+		{default} = minecraft:-
+		waxed = minecraft:waxed_-
+
 	{waterloggable} {axis-aligned} [iron] chain¦s = minecraft:iron_chain
 
-	{waterloggable} {axis-aligned} copper chain¦s = minecraft:copper_chain
-	{waterloggable} {axis-aligned} (lightly weathered|exposed) copper chain¦s = minecraft:exposed_copper_chain
-	{waterloggable} {axis-aligned} weathered copper chain¦s = minecraft:weathered_copper_chain
-	{waterloggable} {axis-aligned} oxidized copper chain¦s = minecraft:oxidized_copper_chain
-	{waterloggable} {axis-aligned} waxed copper chain¦s = minecraft:waxed_copper_chain
-	{waterloggable} {axis-aligned} waxed (lightly weathered|exposed) copper chain¦s = minecraft:waxed_exposed_copper_chain
-	{waterloggable} {axis-aligned} waxed weathered copper chain¦s = minecraft:waxed_weathered_copper_chain
-	{waterloggable} {axis-aligned} waxed oxidized copper chain¦s = minecraft:waxed_oxidized_copper_chain
+	{waterloggable} {axis-aligned} {waxed} {oxidized} copper chain¦s = minecraft:copper_chain
 
-	{waterloggable} copper bars = minecraft:copper_bars
-	{waterloggable} (lightly weathered|exposed) copper bars = minecraft:exposed_copper_bars
-	{waterloggable} weathered copper bars = minecraft:weathered_copper_bars
-	{waterloggable} oxidized copper bars = minecraft:oxidized_copper_bars
-	{waterloggable} waxed copper bars = minecraft:waxed_copper_bars
-	{waterloggable} waxed (lightly weathered|exposed) copper bars = minecraft:waxed_exposed_copper_bars
-	{waterloggable} waxed weathered copper bars = minecraft:waxed_weathered_copper_bars
-	{waterloggable} waxed oxidized copper bars = minecraft:waxed_oxidized_copper_bars
+	{waterloggable} {waxed} {oxidized} copper bars = minecraft:copper_bars
