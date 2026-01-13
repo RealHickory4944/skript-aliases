@@ -848,6 +848,6 @@ copper age update:
 
 	{waterloggable} {axis-aligned} [iron] chain¦s = minecraft:iron_chain
 
-	{waterloggable} {axis-aligned} {waxed} {oxidized} copper chain¦s = minecraft:copper_chain
+	{waterloggable} {axis-aligned} {waxed} {oxidized} copper chain¦s = -copper_chain
 
-	{waterloggable} {waxed} {oxidized} copper bars = minecraft:copper_bars
+	{waterloggable} {waxed} {oxidized} copper bars = -copper_bars
