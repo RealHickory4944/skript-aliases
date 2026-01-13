@@ -839,9 +839,9 @@ copper age update:
 	minecraft version = 1.21.9 or newer
 	{oxidized}:
 		{default} = -
-		(lightly weathered|exposed) = -exposed_-
-		weathered = -weathered_-
-		oxidized = -oxidized_-
+		(lightly weathered|exposed) = exposed_-
+		weathered = weathered_-
+		oxidized = oxidized_-
 	{waxed}:
 		{default} = minecraft:-
 		waxed = minecraft:waxed_-
